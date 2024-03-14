@@ -1,0 +1,30 @@
+body{
+  background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+ overflow-x: hidden;
+}
+.main{
+  display: grid;
+  place-items: center;
+  height: 100dvh;
+  width: 100dvw;
+}
+.stopWatch{
+  width: 500px;
+  height: 300px;
+  
+  background-image: linear-gradient(to left, #BDBBBE 0%, #9D9EA3 100%), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
+ background-blend-mode: normal, lighten, soft-light;
+
+  border-radius: 20px;
+  
+
+}
+.time-wrapper{
+  
+  font-size: 80px;
+  font-weight: bold;
+}
+.stopWatch button{
+  font-size: 30px;
+  font-weight: bold;
+}
